@@ -1,4 +1,4 @@
-import io.zipcoder.casino.game.chancegames.chancegameutilities.RandomNumGen;
+import io.casino.chancegames.chancegameutilities.RandomNumGen;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -20,7 +20,7 @@ public class RandomNumGenTest {
         int first = gen.randomRoulette();
         int second = gen.randomRoulette();
 
-        Assert.assertFalse(first == second);
+        Assert.assertNotEquals(first, second);
 
     }
 }

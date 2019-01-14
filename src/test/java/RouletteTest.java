@@ -1,6 +1,6 @@
-import io.zipcoder.casino.game.Player;
-import io.zipcoder.casino.game.chancegames.Roulette;
-import io.zipcoder.casino.game.chancegames.chancegameutilities.RandomNumGen;
+import io.casino.Player;
+import io.casino.chancegames.Roulette;
+import io.casino.chancegames.chancegameutilities.RandomNumGen;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
@@ -9,9 +9,9 @@ import org.junit.contrib.java.lang.system.SystemOutRule;
 
 
 public class RouletteTest {
-    Player player;
-    MockRandom random;
-    Roulette test;
+    private Player player;
+    private MockRandom random;
+    private Roulette test;
 
     private class MockRandom extends RandomNumGen {
         @Override

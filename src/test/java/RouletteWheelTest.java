@@ -1,7 +1,6 @@
 import io.casino.chancegames.chancegameutilities.RouletteWheel;
 import org.junit.Assert;
 import org.junit.Test;
-
 import java.util.HashMap;
 import java.util.Map;
 
